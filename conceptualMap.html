@@ -4,27 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa Conceptual | Instituto Juan XXIII</title>
 
+    <title>Mapa Conceptual | Instituto Juan XXIII</title>
     <link rel="stylesheet" href="assets/css/conceptualMap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <div class="header">
+    <div class="header" href="">
         <header>
             <ul>
-                <li><a href="">Main</a></li>
-                <li><a href="">Images</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">Bibliographies</a></li>
+                <li><a href="#conceptual-map">Mapa Conceptual</a></li>
+                <li><a href="#images">Imágenes</a></li>
+                <li><a href="#news">Noticias</a></li>
+                <li><a href="#bibliographies">Bibliografias</a></li>
+            </ul>
         </header>
     </div>
 
     <div class="container">
-        <div class="conceptual-map">
+        <div class="conceptual-map" id="conceptual-map">
+            <h3>MAPA CONCEPTUAL</h3>
+            <img src="assets/img/conceptual-map.jpg" alt="">
+        </div>
+
+        <div class="images" id="images">
+            <h3>IMAGENES</h3>
+
+            <div class="images-container">
+                <figure>
+                    <img src="assets/img/sandra-nicastro.jpg" alt="">
+                    <figcaption>Sandra Nicastro habla sobre la Resiliencia</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="assets/img/silvina-gvirtz.jpg" alt="">
+                    <figcaption>Silvina Gvirtz habla sobre que todos pueden ir a la escuela sin ser discriminados</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="assets/img/ines-aguerrondo.jpg" alt="">
+                    <figcaption>Inés Aguerrondo habla sobre las redes de tutorias mexicanas, que alguien le enseña a alguien y ese alguien le puede enseñar a más personas</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="assets/img/joaquin-sallan.jpg" alt="">
+                    <figcaption>Joaquín Gairin Sallan habla sobre una organización que aprende</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="assets/img/ines-aguerrondo-2.jpg" alt="">
+                    <figcaption>Inés Aguerrondo habla sobre una organización capaz de adaptarse y aprender en un entorno cambiante</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="assets/img/harf-and-azzerboni.jpg" alt="">
+                    <figcaption>Ruth Harf y Delia Azzerboni hablan sobre la gestión educativa que debe ser una gestión inteligente aula futurista</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="news" id="news">
+            <a href="https://www.educacion2020.cl/noticias/una-revolucion-educativa-invisible-las-redes-de-tutoria-2/">UNA REVOLUCION EDUCATIVA <br> INVISIBLE: LAS REDES DE TUTORIA</a>
+            <p>
+                En este articulo se habla sobre las redes de tutoria como una herramienta educativa efectiva que a menuda pasa desapercibida. En estas redes consisten en grupos de estudiantes que se apoyan mutuamente en su aprendizaje y pueden ser organizadas por los propios estudiantes, profesores o instituciones educativas. Se destaca la importancia de estas redes en el desarrollo de habilidades de liderazgo, trabajo en equipo y responsabilidad, así como en la mejora del rendimiento académico de los estudiantes. Además, se mencionan algunos ejemplos de redes de tutoría exitosas en diferentes contextos educativos, como en Chile y en los Estados Unidos. En resumen, las redes de tutoría son una estrategia valiosa que puede ayudar a los estudiantes a alcanzard su máximo potencial en el aprendizaje y en su desarrollo personal y académico.
+            </p>
+        </div>
+
+        <div class="bibliographies" id="bibliographies">
+            <h2>Bibliografias</h2>
+            <div class="first-class">
+                <h3>Primera Clase</h3>
+                <ul>
+                    <li>Sandra Nicastro - Principio de clase <a href="https://www.buscalibre.com.ar/libro-revisitar-la-mirada-sobre-la-escuela/9789508084958/p/3003655" target="_blank">Libro Revistar</a></li>
+                    <li>Silvina Gvirtz - <a href="https://youtu.be/ntP9nQnB1LQ" target="_blank">Charlas Sobre Consejos Para Diseñar Una Nueva Escuela</a></li>
+                </ul>
+            </div>
+            <div class="second-class">
+                <h3>Segunda Clase</h3>
+                <ul>
+                    <li>Gregorio Baremblitt - <a href="https://es.scribd.com/doc/299130006/BAREMBLITT-ANALISIS-INSTITUCIONAL" target="_blank">Análisis Institucional</a></li>
+                    <li>Joaquín Gairin Sallan - Texto citado de <a href="https://www.sintesis.com/data/indices/9788413570600.pdf" target="_blank">"El Contexto Organizativo"</a></li>
+                </ul>
+            </div>
+            <div class="third-class">
+                <h3>Tercera Clase</h3>
+                <ul>
+                    <li>Inés Aguerrondo - <a href="http://www.terras.edu.ar/biblioteca/17/17GSTN_Aguerrondo_Unidad_1.pdf" target="_blank">Escuela Como Organización Inteligente</a></li>
+                    <li>Ruth Harf y Delia Azzerboni - <a href="https://agmerparana.com.ar/wp-content/uploads/2017/09/AZZERBONI-Delia-y-HARF-Ruth-CONDUCIENDO-LA-ESCUELA.pdf" target="_blank">Conduciendo La Escuela</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/firefly.js" type="text/javascript"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
