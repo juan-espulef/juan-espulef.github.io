@@ -47,3 +47,18 @@ body {
     margin-left: 40px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .header header {
+        padding: 20px;
+    }
+
+    .header ul li a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
