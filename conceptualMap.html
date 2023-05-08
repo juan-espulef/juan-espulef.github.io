@@ -1,103 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Mapa Conceptual | Instituto Juan XXIII</title>
-    <link rel="stylesheet" href="assets/css/conceptualMap.css">
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/conceptualMap.css" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header" href="">
-        <header>
-            <ul>
-                <li><a href="#conceptual-map">Mapa Conceptual</a></li>
-                <li><a href="#images">Imágenes</a></li>
-                <li><a href="#news">Noticias</a></li>
-                <li><a href="#bibliographies">Bibliografias</a></li>
-            </ul>
-        </header>
+      <header>
+        <ul>
+          <li><a href="#conceptual-map">Mapa Conceptual</a></li>
+          <li><a href="#images">Imágenes</a></li>
+          <li><a href="#news">Noticias</a></li>
+          <li><a href="#bibliographies">Bibliografias</a></li>
+          <li><a href="#analysis-similarities">Semejanzas, Diferencia y Análisis Critico</a></li>
+        </ul>
+      </header>
     </div>
 
     <div class="container">
-        <div class="conceptual-map" id="conceptual-map">
-            <h3>MAPA CONCEPTUAL</h3>
-            <img src="assets/img/conceptual-map.jpg" alt="">
+      <div class="conceptual-map" id="conceptual-map">
+        <h3>MAPA CONCEPTUAL</h3>
+        <img src="assets/img/conceptual-map.jpg" alt="" />
+      </div>
+
+      <div class="images" id="images">
+        <h3>IMAGENES</h3>
+
+        <div class="images-container">
+          <figure>
+            <img src="assets/img/sandra-nicastro.jpg" alt="" />
+            <figcaption>Sandra Nicastro habla sobre la Resiliencia</figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/silvina-gvirtz.jpg" alt="" />
+            <figcaption>
+              Silvina Gvirtz habla sobre que todos pueden ir a la escuela sin
+              ser discriminados
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/ines-aguerrondo.jpg" alt="" />
+            <figcaption>
+              Inés Aguerrondo habla sobre las redes de tutorias mexicanas, que
+              alguien le enseña a alguien y ese alguien le puede enseñar a más
+              personas
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/joaquin-sallan.jpg" alt="" />
+            <figcaption>
+              Joaquín Gairin Sallan habla sobre una organización que aprende
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/ines-aguerrondo-2.jpg" alt="" />
+            <figcaption>
+              Inés Aguerrondo habla sobre una organización capaz de adaptarse y
+              aprender en un entorno cambiante
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/harf-and-azzerboni.jpg" alt="" />
+            <figcaption>
+              Ruth Harf y Delia Azzerboni hablan sobre la gestión educativa que
+              debe ser una gestión inteligente aula futurista
+            </figcaption>
+          </figure>
         </div>
+      </div>
 
-        <div class="images" id="images">
-            <h3>IMAGENES</h3>
+      <div class="news" id="news">
+        <a
+          href="https://www.educacion2020.cl/noticias/una-revolucion-educativa-invisible-las-redes-de-tutoria-2/"
+          >UNA REVOLUCION EDUCATIVA <br />
+          INVISIBLE: LAS REDES DE TUTORIA</a
+        >
+        <p>
+          En este articulo se habla sobre las redes de tutoria como una
+          herramienta educativa efectiva que a menuda pasa desapercibida. En
+          estas redes consisten en grupos de estudiantes que se apoyan
+          mutuamente en su aprendizaje y pueden ser organizadas por los propios
+          estudiantes, profesores o instituciones educativas. Se destaca la
+          importancia de estas redes en el desarrollo de habilidades de
+          liderazgo, trabajo en equipo y responsabilidad, así como en la mejora
+          del rendimiento académico de los estudiantes. Además, se mencionan
+          algunos ejemplos de redes de tutoría exitosas en diferentes contextos
+          educativos, como en Chile y en los Estados Unidos. En resumen, las
+          redes de tutoría son una estrategia valiosa que puede ayudar a los
+          estudiantes a alcanzard su máximo potencial en el aprendizaje y en su
+          desarrollo personal y académico.
+        </p>
+      </div>
 
-            <div class="images-container">
-                <figure>
-                    <img src="assets/img/sandra-nicastro.jpg" alt="">
-                    <figcaption>Sandra Nicastro habla sobre la Resiliencia</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/silvina-gvirtz.jpg" alt="">
-                    <figcaption>Silvina Gvirtz habla sobre que todos pueden ir a la escuela sin ser discriminados</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/ines-aguerrondo.jpg" alt="">
-                    <figcaption>Inés Aguerrondo habla sobre las redes de tutorias mexicanas, que alguien le enseña a alguien y ese alguien le puede enseñar a más personas</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/joaquin-sallan.jpg" alt="">
-                    <figcaption>Joaquín Gairin Sallan habla sobre una organización que aprende</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/ines-aguerrondo-2.jpg" alt="">
-                    <figcaption>Inés Aguerrondo habla sobre una organización capaz de adaptarse y aprender en un entorno cambiante</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/harf-and-azzerboni.jpg" alt="">
-                    <figcaption>Ruth Harf y Delia Azzerboni hablan sobre la gestión educativa que debe ser una gestión inteligente aula futurista</figcaption>
-                </figure>
-            </div>
+      <div class="bibliographies" id="bibliographies">
+        <h2>Bibliografias</h2>
+        <div class="first-class">
+          <h3>Primera Clase</h3>
+          <ul>
+            <li>
+              Sandra Nicastro - Principio de clase
+              <a
+                href="https://www.buscalibre.com.ar/libro-revisitar-la-mirada-sobre-la-escuela/9789508084958/p/3003655"
+                target="_blank"
+                >Libro Revistar</a
+              >
+            </li>
+            <li>
+              Silvina Gvirtz -
+              <a href="https://youtu.be/ntP9nQnB1LQ" target="_blank"
+                >Charlas Sobre Consejos Para Diseñar Una Nueva Escuela</a
+              >
+            </li>
+          </ul>
         </div>
-
-        <div class="news" id="news">
-            <a href="https://www.educacion2020.cl/noticias/una-revolucion-educativa-invisible-las-redes-de-tutoria-2/">UNA REVOLUCION EDUCATIVA <br> INVISIBLE: LAS REDES DE TUTORIA</a>
-            <p>
-                En este articulo se habla sobre las redes de tutoria como una herramienta educativa efectiva que a menuda pasa desapercibida. En estas redes consisten en grupos de estudiantes que se apoyan mutuamente en su aprendizaje y pueden ser organizadas por los propios estudiantes, profesores o instituciones educativas. Se destaca la importancia de estas redes en el desarrollo de habilidades de liderazgo, trabajo en equipo y responsabilidad, así como en la mejora del rendimiento académico de los estudiantes. Además, se mencionan algunos ejemplos de redes de tutoría exitosas en diferentes contextos educativos, como en Chile y en los Estados Unidos. En resumen, las redes de tutoría son una estrategia valiosa que puede ayudar a los estudiantes a alcanzard su máximo potencial en el aprendizaje y en su desarrollo personal y académico.
-            </p>
+        <div class="second-class">
+          <h3>Segunda Clase</h3>
+          <ul>
+            <li>
+              Gregorio Baremblitt -
+              <a
+                href="https://es.scribd.com/doc/299130006/BAREMBLITT-ANALISIS-INSTITUCIONAL"
+                target="_blank"
+                >Análisis Institucional</a
+              >
+            </li>
+            <li>
+              Joaquín Gairin Sallan - Texto citado de
+              <a
+                href="https://www.sintesis.com/data/indices/9788413570600.pdf"
+                target="_blank"
+                >"El Contexto Organizativo"</a
+              >
+            </li>
+          </ul>
         </div>
-
-        <div class="bibliographies" id="bibliographies">
-            <h2>Bibliografias</h2>
-            <div class="first-class">
-                <h3>Primera Clase</h3>
-                <ul>
-                    <li>Sandra Nicastro - Principio de clase <a href="https://www.buscalibre.com.ar/libro-revisitar-la-mirada-sobre-la-escuela/9789508084958/p/3003655" target="_blank">Libro Revistar</a></li>
-                    <li>Silvina Gvirtz - <a href="https://youtu.be/ntP9nQnB1LQ" target="_blank">Charlas Sobre Consejos Para Diseñar Una Nueva Escuela</a></li>
-                </ul>
-            </div>
-            <div class="second-class">
-                <h3>Segunda Clase</h3>
-                <ul>
-                    <li>Gregorio Baremblitt - <a href="https://es.scribd.com/doc/299130006/BAREMBLITT-ANALISIS-INSTITUCIONAL" target="_blank">Análisis Institucional</a></li>
-                    <li>Joaquín Gairin Sallan - Texto citado de <a href="https://www.sintesis.com/data/indices/9788413570600.pdf" target="_blank">"El Contexto Organizativo"</a></li>
-                </ul>
-            </div>
-            <div class="third-class">
-                <h3>Tercera Clase</h3>
-                <ul>
-                    <li>Inés Aguerrondo - <a href="http://www.terras.edu.ar/biblioteca/17/17GSTN_Aguerrondo_Unidad_1.pdf" target="_blank">Escuela Como Organización Inteligente</a></li>
-                    <li>Ruth Harf y Delia Azzerboni - <a href="https://agmerparana.com.ar/wp-content/uploads/2017/09/AZZERBONI-Delia-y-HARF-Ruth-CONDUCIENDO-LA-ESCUELA.pdf" target="_blank">Conduciendo La Escuela</a></li>
-                </ul>
-            </div>
+        <div class="third-class">
+          <h3>Tercera Clase</h3>
+          <ul>
+            <li>
+              Inés Aguerrondo -
+              <a
+                href="http://www.terras.edu.ar/biblioteca/17/17GSTN_Aguerrondo_Unidad_1.pdf"
+                target="_blank"
+                >Escuela Como Organización Inteligente</a
+              >
+            </li>
+            <li>
+              Ruth Harf y Delia Azzerboni -
+              <a
+                href="https://agmerparana.com.ar/wp-content/uploads/2017/09/AZZERBONI-Delia-y-HARF-Ruth-CONDUCIENDO-LA-ESCUELA.pdf"
+                target="_blank"
+                >Conduciendo La Escuela</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
+
+      <div class="analysis-similarities" id="analysis-similarities">
+        <h2>Semejanzas, Diferencia y Análisis Critico</h2>
+        <br />
+        <h3>Semejanzas y Diferencia</h3>
+        <p>
+          *Sandra.N y Silvina. G: ambas autoras proponen diferentes herramientas
+          para formar buenas escuelas.<br />
+          *Joaquín.G y Gregorio.B: ambos contribuyen a que la educación mejora
+          la sociedad que fomenta las entidades abstractas.<br />
+          *Ruth.M y Delia.A con Inés.A: plantean una gestión educativa que se
+          adapte al entorno para lograr una organización inteligente.<br /><br />
+
+          La diferencia entre cada autor es notoria, aunque entre ellos haya
+          semejanzas, son distintas formas y caminos para lograr su propósito
+          pero la semejanza más grande o importante es la que comparten todos
+          los autores al fin, todos buscan mejorar la enseñanza y el aprendizaje
+        </p>
+        <br />
+        <h3>Análisis Critico</h3>
+        <p>
+          * Regina: El análisis que planteo en general es que pudimos
+          desarrollar el mapa conceptual integrando los enfoques principales de
+          cada autor sin ninguna dificultad. Considero en sí, que como grupo
+          pudimos desde entender a poder aplicar los enfoques e ideas de los
+          autores. Como grupo, pudimos desarrollar los diferentes puntos de
+          vista de cada uno con respecto a los libros, videos y planteos de los
+          autores. Nos resultó fácil ponernos de acuerdo y poder aplicar cada
+          enfoque. Destaco que este es un buen grupo, al igual que el resultado
+          que queríamos lograr, un buen trabajo.<br />
+          * Valentina: el análisis que tengo sobre este trabajo, es que está muy
+          bien desarrollado, desde el mapa conceptual, hasta cada concepto de
+          cada autor, formamos un buen grupo donde todos supimos acoplarnos los
+          unos a los otros para tener un excelente resultado, a mí parecer el
+          trabajo está muy bien realizado! 🤍<br />
+          *Juan: Desde mi parecer, el trabajo nos llevo a conocer a lo que los
+          autores llegaban a proponer, en donde pudimos relacionar todos los
+          conceptos uno a los otros. Desde el trabajo grupal, nos ayudo a
+          conocernos con nuestros compañeros y lograr un trabajo en equipo,
+          destacando los puntos de vistas de cada uno y con un resultado mas que
+          satisfecho.
+        </p>
+      </div>
     </div>
 
     <script src="assets/js/firefly.js" type="text/javascript"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
-</body>
+  </body>
 </html>
